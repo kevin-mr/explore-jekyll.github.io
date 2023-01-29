@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../assets/css/styles.css" />
+    </head>
+    <body>
+        <!-- <nav>
+    <a href="/root" style="color: red;">Home</a>
+    <a href="/root/about" >About</a>
+</nav> -->
+
+<nav>
+    
+    <a href="/root" class="current">Home</a>
+    
+    <a href="/root/about" >About</a>
+    
+    <a href="/root/blog" >Blog</a>
+    
+    <a href="/root/staff" >Staff</a>
+    
+</nav>
+ <h1>hello world!</h1>
+
+        <button id="testingClick" class="btn btn-secondary">Click</button>
+    </body>
+    <script>
+        document
+            .getElementById("testingClick")
+            .addEventListener("click", function () {
+                console.log("The click is working");
+            });
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+    ></script>
+</html>

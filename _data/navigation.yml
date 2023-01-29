@@ -1,0 +1,12 @@
+- name: Home
+  link: /root
+  linkToCompare: /root/
+- name: About
+  link: /root/about
+  linkToCompare: /root/about.html
+- name: Blog
+  link: /root/blog
+  linkToCompare: /root/blog.html
+- name: Staff
+  link: /root/staff
+  linkToCompare: /root/staff.html
