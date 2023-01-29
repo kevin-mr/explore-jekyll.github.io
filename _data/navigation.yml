@@ -1,12 +1,12 @@
 - name: Home
-  link: /
+  link: /explore-jekyll.github.io/index.html
   linkToCompare: /
 - name: About
-  link: /about
+  link: /explore-jekyll.github.io/about
   linkToCompare: /about.html
 - name: Blog
-  link: /blog
+  link: /explore-jekyll.github.io/blog
   linkToCompare: /blog.html
 - name: Staff
-  link: /staff
+  link: /explore-jekyll.github.io/staff
   linkToCompare: /staff.html

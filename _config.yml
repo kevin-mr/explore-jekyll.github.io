@@ -2,4 +2,4 @@ collections:
     authors:
         output: true
 
-baseurl: explore-jekyll.github.io
+baseurl: /explore-jekyll.github.io
